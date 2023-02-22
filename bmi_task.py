@@ -12,22 +12,22 @@ height = float(input("please enter your height in m"))
 
 BMI = (weight)/(height*height)
 #just change the formula as mmy tutor correct me, the formula was wrong it make sense becaosue it told em i was obesse lol
-print (BMI)
+print(BMI)
 
 if BMI >= 30:
-    print ("you are obesse")
+    print ("Your BMI is obese.")
     
 
 elif BMI >25:
-    print("you are overweight")
+    print("Your BMI is overweight.")
     
     
     
 elif BMI >= 18.5:
-    print("you are normal")
+    print("Your BMI is normal.")
     
     
    
 else:
-    print("you are underweight")
+    print("Your BMI is underweight.")
 
