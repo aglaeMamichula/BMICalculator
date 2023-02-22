@@ -7,6 +7,9 @@
 #If the user’s BMI is less than 18.5 the user is underweight
 #Display the user’s BMI and whether they are obese, overweight, normal or underweight.
 
+print("Welcome to the BMI Calculator!\n")
+input("Press any key to continue...")
+
 weight = float(input("please enter your weight in kg"))
 height = float(input("please enter your height in m"))
 
